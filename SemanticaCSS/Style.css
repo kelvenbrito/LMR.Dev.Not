@@ -1,0 +1,61 @@
+body{
+    /*cor de fundo */
+    background-color: rgb(108, 21, 196);
+}
+#Login{
+    /*cor de fundo */
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 14%, rgba(253,107,29,1) 67%, rgba(219,1,1,1) 99%);
+}
+    #Contatos{
+    /*cor de fundo */
+    background: rgb(95,180,58);
+    background: linear-gradient(90deg, rgba(95,180,58,1) 9%, rgba(29,253,216,1) 61%, rgba(26,1,219,1) 99%);
+}
+
+
+#menu{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(6, 6, 6);
+}
+
+.linkMenu{
+    color: rgb(130, 129, 133);
+    font-size: 5em;
+    margin-left:20px ;
+    margin-right:20PX ;
+    text-decoration: none;
+}
+
+.parte1{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.parte1 Img{
+   
+    height: 500px;
+    height: 500px;
+}
+
+.parte1 h1{
+    color: antiquewhite;
+}
+
+.parte1 p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(128, 0, 0);
+}
+
+#menu Img{
+    height: 100px;
+}
+.login{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 5px;
+}
