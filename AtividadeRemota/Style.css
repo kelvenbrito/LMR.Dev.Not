@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(5, 68, 122);
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    height: 70px;
+    height: 100%;
+
+}
+
+.nav .linkMenu {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.nav .Menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around
+}
+
+
+.nav .mHambuguer {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(78, 146, 88);
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+.container .linha1 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .linha2 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container .q1 {
+    width: 23%;
+    height: 23vh;
+    background-color: rgb(46, 19, 220);
+
+
+}
+
+.container .q2 {
+    width: 23%;
+    height: 23vh;
+    background-color: rgb(246, 115, 8);
+
+
+}
+
+.container .q3 {
+    width: 23%;
+    height: 23vh;
+    background-color: rgb(13, 140, 147);
+
+
+}
+
+.container .q4 {
+    width: 23%;
+    height: 23vh;
+    background-color: rgb(107, 107, 6);
+
+
+}
+
+.tabela{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(227, 227, 228);
+    
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+
+
+
+.tabela th{
+    width: 13%;
+    height: 10vh;
+    background-color: rgb(77, 3, 64);
+  
+ 
+  
+    }
+
+
+    .tabela td{
+        width: 13%;
+        height: 10vh;
+        background-color: rgb(3, 47, 77);
+    }

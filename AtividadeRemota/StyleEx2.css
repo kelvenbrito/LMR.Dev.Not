@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.tabela{
+    width: 40%;
+    height: 50vh;
+    background-color: rgb(227, 227, 228);
+    font-size: 14px;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 4px solid black;
+ 
+}
+
+
+
+.tabela th{
+    width: 13%;
+    height: 10vh;
+    background-color: rgb(77, 3, 64);
+  
+ 
+  
+    }
+
+
+    .tabela td{
+        width: 13%;
+        height: 10vh;
+        background-color: rgb(3, 47, 77);
+    }
+
+    .tabela .col1{
+       text-align: center;
+    }
+    .tabela .col2{
+        text-align: left;
+       
+    }
+    .tabela .col3{
+       
+        text-align: center;
+        margin-top: -15%;
+    }
+
+    .tabela .col4{
+        text-align: center;
+        margin-top: -15%;
+    }
+
+    .tabela p{
+        margin-top: -15%;
+    }
