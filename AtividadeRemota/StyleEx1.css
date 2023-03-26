@@ -1,17 +1,17 @@
-body{
+body {
     margin: 0;
 }
 
-.container{
+.container {
     width: 98%;
     height: 80px;
     font-size: 20px;
-   
+
 
 
 }
 
-.q1{
+.q1 {
     width: 15%;
     height: 30vh;
     background-color: rgb(201, 30, 0);
@@ -22,19 +22,19 @@ body{
 
 
 
-.q2{
+.q2 {
     width: 15%;
     height: 30vh;
     background-color: rgb(204, 201, 23);
     margin-left: 85%;
     margin-top: -14%;
 
-    
+
 
 }
 
 
-.q3{
+.q3 {
     width: 15%;
     height: 30vh;
     background-color: rgb(6, 146, 30);
@@ -43,7 +43,7 @@ body{
 }
 
 
-.q4{
+.q4 {
     width: 15%;
     height: 30vh;
     background-color: rgb(0, 9, 88);
