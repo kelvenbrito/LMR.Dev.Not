@@ -1,0 +1,159 @@
+body {
+    background-color: rgba(231, 205, 166, 0.774);
+    margin: 0;
+ 
+}
+
+
+
+
+.nav{
+    background-color: rgb(253, 248, 245);
+    margin-top: -20px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+   
+    
+}
+
+.nav img{
+    width: 150px;
+    height: 70px;
+}
+
+.nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav .lMenu{
+    text-decoration:none;
+    font-size: 24px;
+    color: rgb(114, 65, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ iframe{
+    width: 100%;
+    height: 50px;
+    position:fixed;
+ }
+
+.princ{
+    width: 114%;
+    height: 500px;
+    background-image: url(Img/fundocafe3.avif);
+    padding: 300x;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
+
+.princ h1{
+    color: rgb(255, 254, 254);
+    font-size: 50px;
+  margin-top: -50px;
+    margin-right: 200px;
+   
+ }
+
+ .princ h2{
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    margin-top: -10px;
+ 
+ }
+ h2{
+   margin-top: 2px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(48, 36, 23);
+    font-family:'Times New Roman', Times, serif
+}
+
+
+ .promo{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content:baseline;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+
+
+.promo .imagem{
+    margin-top: -100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.imagem a{
+    text-decoration: none;
+    color: black;
+    margin-top: -10px;
+    
+}
+
+#pgCafe{
+  /*  background-color: rgb(141, 82, 4);*/
+  background-color: rgb(145, 86, 19);
+    margin: 0;
+}
+
+.menucafe{
+    width: 50%;
+    height: 40vh;
+  margin-right: 100px;
+
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   align-items: start;
+    
+}
+
+
+
+
+.menucafe .cafe1{
+
+    width: 40%;
+    height: 70vh;
+    margin-top: -10px;
+    margin-right: 20px;
+    padding: 100px ;
+    background-color: rgba(32, 24, 1, 0.795);
+    color: azure;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+.menucafe img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+#pgRefe{
+    background-color: rgb( 101, 42, 14);
+}
+

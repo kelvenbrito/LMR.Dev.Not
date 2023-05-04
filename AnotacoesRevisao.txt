@@ -1,0 +1,3 @@
+display: flex; coloca em cima precisa usar para os outros funcionar
+ justify-content: space-between; horizontal
+ align-items: center; vertical
