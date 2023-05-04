@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 98%;
+    height: 80px;
+    font-size: 20px;
+
+
+
+}
+
+.q1 {
+    width: 15%;
+    height: 30vh;
+    background-color: rgb(201, 30, 0);
+    margin-right: 50%;
+
+
+}
+
+
+
+.q2 {
+    width: 15%;
+    height: 30vh;
+    background-color: rgb(204, 201, 23);
+    margin-left: 85%;
+    margin-top: -14%;
+
+
+
+}
+
+
+.q3 {
+    width: 15%;
+    height: 30vh;
+    background-color: rgb(6, 146, 30);
+    margin-top: 19%;
+
+}
+
+
+.q4 {
+    width: 15%;
+    height: 30vh;
+    background-color: rgb(0, 9, 88);
+    margin-left: 85%;
+    margin-top: -13%;
+
+}
