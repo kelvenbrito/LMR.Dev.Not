@@ -1,8 +1,13 @@
 body{
-    background-color: rgb(5, 75, 94);
+    background: rgb(131,58,180);
+    background: linear-gradient(101deg, rgba(131,58,180,1) 0%, rgba(29,124,253,1) 71%, rgba(108,69,252,1) 100%);
     margin: 0;
 }
 
 h2{
     color: aliceblue;
+}
+
+img{
+    width: 10vh;
 }
