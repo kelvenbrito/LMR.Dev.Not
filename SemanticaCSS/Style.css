@@ -3,6 +3,29 @@ body {
     background-color: rgb(108, 21, 196);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+#Login {
+    /*cor de fundo */
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 14%, rgba(253, 107, 29, 1) 67%, rgba(219, 1, 1, 1) 99%);
+    
+}
+
+#Contatos {
+    /*cor de fundo */
+    background: rgb(95, 180, 58);
+    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+}
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 
 
 #menu {
@@ -30,6 +53,18 @@ body {
 .parte1 Img {
 
     height: 500px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+    height: 500px;
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 }
 
 .parte1 h1 {
@@ -46,6 +81,13 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 #Login {
     /*cor de fundo */
     background: rgb(131, 58, 180);
@@ -53,6 +95,14 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 .login {
     position: relative;
     z-index: 1;
@@ -65,6 +115,20 @@ body {
 }
 
 .login input {
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+}
+
+.login input {
+=======
+  }
+
+  .login input {
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     outline: 0;
     background: #f0eaea;
@@ -74,6 +138,12 @@ body {
     padding: 15px;
     box-sizing: border-box;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 
 }
 
@@ -82,10 +152,35 @@ body {
     text-transform: uppercase;
     outline: 0;
     background-color: #0b420b;
+<<<<<<< HEAD
+=======
+=======
+   
+  }
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+
+}
+
+.login button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    outline: 0;
+<<<<<<< HEAD
+    background-color: #0b420b;
+=======
+    background: #131413;
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     width: 100%;
     border: 0;
     padding: 15px;
     font-size: 14px;
+
+
+
+=======
+<<<<<<< HEAD
 
 
 
@@ -119,6 +214,54 @@ body {
     position: relative;
     z-index: 1;
     background: #004b68;
+<<<<<<< HEAD
+=======
+=======
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    
+    
+  }
+.login h1{
+    font-size: 20px;
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+}
+
+#pbut{
+   ba : #004b68;
+}
+
+.login img {
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.login h1 {
+    font-size: 20px;
+
+
+}
+
+#Contatos {
+    /*cor de fundo */
+    background: rgb(95, 180, 58);
+    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+}
+
+.contatos {
+    position: relative;
+    z-index: 1;
+<<<<<<< HEAD
+    background: #004b68;
+=======
+    background: #499267;
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     max-width: 500px;
     margin: 0 auto 100px;
     padding: 20px;
@@ -127,6 +270,19 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+}
+
+=======
+   
+}
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 .contatos input {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     outline: 0;
@@ -137,6 +293,12 @@ body {
     padding: 15px;
     box-sizing: border-box;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 
 }
 
@@ -164,5 +326,44 @@ body {
 .contatos h2 {
     font-size: 20px;
     background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+<<<<<<< HEAD
+=======
+=======
+   
+  }
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+
+}
+
+.cont input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: 0;
+    background: #056864;
+    width: 150px;
+    border: 0;
+    margin: 0 0 35px;
+   
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.contatos h3 {
+    font-size: 20px;
+<<<<<<< HEAD
+    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+    border: 10px solid rgb(27, 1, 69);
+    padding: 5px;
+}
+
+.contatos h2 {
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+=======
+    background-color: #cc9; 
+>>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     padding: 5px;
 }

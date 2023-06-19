@@ -1,11 +1,19 @@
 body {
+<<<<<<< HEAD
     background-color: rgba(240, 205, 152, 0.774);
+=======
+    background-color: rgba(231, 205, 166, 0.774);
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     margin: 0;
  
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 .nav{
     background-color: rgb(253, 248, 245);
     margin-top: -20px;
@@ -28,7 +36,11 @@ body {
     width: 50%;
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 }
 
 .nav .lMenu{
@@ -36,6 +48,7 @@ body {
     font-size: 24px;
     color: rgb(114, 65, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     
     
 }
@@ -44,6 +57,17 @@ body {
 
 .princ{
     width: 105%;
+=======
+}
+ iframe{
+    width: 100%;
+    height: 50px;
+    position:fixed;
+ }
+
+.princ{
+    width: 114%;
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     height: 500px;
     background-image: url(Img/fundocafe3.avif);
     padding: 300x;
@@ -78,6 +102,11 @@ body {
     color: rgb(48, 36, 23);
     font-family:'Times New Roman', Times, serif
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
  .promo{
     width: 10%;
     height: 30px;
@@ -105,7 +134,10 @@ body {
     
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 #pgCafe{
   /*  background-color: rgb(141, 82, 4);*/
   background-color: rgb(145, 86, 19);
@@ -113,7 +145,11 @@ body {
 }
 
 .menucafe{
+<<<<<<< HEAD
     width: 60%;
+=======
+    width: 50%;
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     height: 40vh;
   margin-right: 100px;
 
@@ -129,7 +165,11 @@ body {
 
 .menucafe .cafe1{
 
+<<<<<<< HEAD
     width: 70%;
+=======
+    width: 40%;
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
     height: 70vh;
     margin-top: -10px;
     margin-right: 20px;
@@ -150,8 +190,11 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b224eb0e0019478c0ee4158f9a9040d6ac481b06
 #pgRefe{
     background-color: rgb( 101, 42, 14);
 }

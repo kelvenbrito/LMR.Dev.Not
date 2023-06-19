@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+.banner{
+    background-image: url(Img/ga.jpeg);
+=======
 
 body{
   background-color: rgb(108, 21, 196);
@@ -30,12 +34,17 @@ body{
 
 .banner{
   background-image: url(Img/ga.jpeg);
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
 }
 
 
 
 .banner .text{
+<<<<<<< HEAD
+   
+=======
  
+>>>>>>> 5952cefc34a3f4bdbc7802cb82d6eb298697d317
 }
 
 ul {
