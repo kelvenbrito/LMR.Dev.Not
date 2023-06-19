@@ -3,22 +3,6 @@ body {
     background-color: rgb(108, 21, 196);
 }
 
-<<<<<<< HEAD
-
-=======
-#Login {
-    /*cor de fundo */
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 14%, rgba(253, 107, 29, 1) 67%, rgba(219, 1, 1, 1) 99%);
-    
-}
-
-#Contatos {
-    /*cor de fundo */
-    background: rgb(95, 180, 58);
-    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
-}
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
 
 
 #menu {
@@ -46,11 +30,6 @@ body {
 .parte1 Img {
 
     height: 500px;
-<<<<<<< HEAD
-
-=======
-    height: 500px;
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
 }
 
 .parte1 h1 {
@@ -67,7 +46,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 #Login {
     /*cor de fundo */
     background: rgb(131, 58, 180);
@@ -75,8 +53,6 @@ body {
 
 }
 
-=======
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
 .login {
     position: relative;
     z-index: 1;
@@ -86,15 +62,9 @@ body {
     padding: 20px;
     text-align: left;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-<<<<<<< HEAD
 }
 
 .login input {
-=======
-  }
-
-  .login input {
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     outline: 0;
     background: #f0eaea;
@@ -104,7 +74,6 @@ body {
     padding: 15px;
     box-sizing: border-box;
     font-size: 20px;
-<<<<<<< HEAD
 
 }
 
@@ -113,21 +82,10 @@ body {
     text-transform: uppercase;
     outline: 0;
     background-color: #0b420b;
-=======
-   
-  }
-
-  .login button {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: #131413;
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
     width: 100%;
     border: 0;
     padding: 15px;
     font-size: 14px;
-<<<<<<< HEAD
 
 
 
@@ -161,35 +119,14 @@ body {
     position: relative;
     z-index: 1;
     background: #004b68;
-=======
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-    
-    
-  }
-.login h1{
-    font-size: 20px;
-}
-
-.contatos{
-    position: relative;
-    z-index: 1;
-    background: #499267;
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
     max-width: 500px;
     margin: 0 auto 100px;
     padding: 20px;
     text-align: left;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-<<<<<<< HEAD
 
 }
 
-=======
-   
-}
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
 .contatos input {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     outline: 0;
@@ -200,7 +137,6 @@ body {
     padding: 15px;
     box-sizing: border-box;
     font-size: 20px;
-<<<<<<< HEAD
 
 }
 
@@ -228,20 +164,5 @@ body {
 .contatos h2 {
     font-size: 20px;
     background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
-=======
-   
-  }
-
-  .contatos h3{
-    font-size: 20px;
-    background-color: #cc9; 
-border:10px solid rgb(27, 1, 69); 
-padding: 5px;
-}
-
-.contatos h2{
-    font-size: 20px;
-    background-color: #cc9; 
->>>>>>> 6449c422d6cb1ceab2199a7f4a04869a930df2b9
     padding: 5px;
 }
