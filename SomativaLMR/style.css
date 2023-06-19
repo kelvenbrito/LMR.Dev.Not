@@ -1,0 +1,50 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(101deg, rgba(131,58,180,1) 0%, rgba(29,124,253,1) 71%, rgba(108,69,252,1) 100%);
+    margin: 0;
+}
+
+h2{
+    color: aliceblue;
+}
+
+img{
+    width: 10vh;
+}
+
+.relogio .container{
+    
+    font-family: "@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap')"; 
+    background: linear-gradient(120deg, #ffe53bd8, #10c25ada );
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width:100vh;
+   
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, .5);
+}
+
+.relogio .col{
+    height: 30vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(115, 0, 182, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 12vh;
+}
+
+span.tempo {
+    font-size: 4vh;
+}
