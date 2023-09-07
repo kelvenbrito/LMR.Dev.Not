@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+
+<body>
+
+
+
+
+
+    <div class="px-3 py-2 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#home"></use>
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#speedometer2"></use>
+                            </svg>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#table"></use>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#grid"></use>
+                            </svg>
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#people-circle"></use>
+                            </svg>
+                            Customers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="pb-2 border-bottom">Contador regressivo</h2>
+
+    <section class="relogio">
+
+        <div class="container-md">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                <div class="col" style=" border-style: solid; border-color: white">
+                    <span id="minutos">00</span>
+                    <span class="tempo">minutos</span>
+                </div>
+                <div class="col" style=" border-style: solid; border-color: white;">
+                    <span id="segundos">00</span>
+                    <span class="tempo">segundos</span> <br><br><br>
+                </div>
+                <div class="col" style=" border-style: solid; border-color: white;">
+                    <span id="milisegundos">00</span>
+                    <span class="tempo">mili segundos</span> <br><br><br>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary" id="def" onclick="definirCont()"> Definir </button>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+
+                <button type="button" class="btn btn-link" id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+            </div>
+
+
+            <div class="col-6">
+                <button type="button" class="btn btn-link" id="pararContador">Parar</button>
+
+
+            </div>
+        </div>
+
+
+        <div class="row">
+
+
+
+            <div class="col-6 ">
+
+                <button type="button" class="btn btn-link" onclick="Zerar()">Zerar</button>
+            </div>
+
+
+            <div class="col-6">
+                <button type="button" class="btn btn-link" onclick="inverter()">Inverte
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
