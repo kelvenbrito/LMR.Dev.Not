@@ -1,8 +1,16 @@
+// Definição das variáveis e elementos utilizados
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
-const milisegundos = document.getElementById('milisegundos');
 const botaoParar = document.getElementById('pararContador');
 const botaoReiniciar = document.getElementById('reiniciar');
+const min = document.getElementById('minutosInput');
+const seg = document.getElementById('segundosInput');
+const botaoiniciar = document.getElementById('iniciar');
+const openModalButton = document.querySelector("#open-modal");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fundo = document.querySelector("#fade");
+
 
 let intervalo = 10; // Intervalo em milissegundos (10 milissegundos)
 let Contador;
@@ -11,23 +19,38 @@ let tempoRestante = 0;
 let tempReinicio=0;
 let tempInvert=0;
 
-let minE;
-let sE;
-let msE;
 
+
+
+
+
+// Função para abrir e fechar o modal
+
+const mudarModal = () => {
+  modal.classList.toggle("hide");
+  fundo.classList.toggle("hide");
+};
+
+[openModalButton, closeModalButton, fundo].forEach((el) => {
+  el.addEventListener("click", () => mudarModal());
+});
+
+// Função para definir o tempo e iniciar o contado
 function definirCont() {
-    minE = prompt('Informe quantos minutos: ');
-    sE = prompt('Informe quantos segundos: ');
    
-
-    tempoRestante = ((minE * 60000) + (sE * 1000));
-    tempReinicio = ((minE * 60000) + (sE * 1000));
+   
+//calculo para contar o tempo do relogio
+    tempoRestante = ((min.value * 60000) + (seg.value * 1000));
+    tempReinicio = ((min.value * 60000) + (seg.value * 1000));
     tempInvert = tempoRestante;
-   
+    botaoiniciar.style.display = "inline";
+    openModalButton.textContent = "Redefinir"
+    mudarModal();
     clearInterval(Contador);
     iniciarContador();
 }
 
+// Função para zerar o contador
 function Zerar() {
     clearInterval(Contador);
     tempoRestante = 0;
@@ -40,6 +63,8 @@ function Zerar() {
     botaoReiniciar.disabled = false;
 }
 
+
+// Função para reiniciar o contador
 function reiniciar() {
     clearInterval(Contador);
     tempoRestante = tempReinicio; // Restaura o valor original
@@ -72,7 +97,7 @@ function reiniciar() {
 }
 
 
-
+// Função para inverter a contagem
 function inverter() {
     if (!pausado) {
         clearInterval(Contador);
@@ -127,6 +152,8 @@ botaoParar.addEventListener('click', function () {
 
 });
 
+
+// Função para iniciar o contador
 function iniciarContador() {
     
     botaoParar.textContent = 'Parar Contagem';
@@ -160,6 +187,3 @@ function iniciarContador() {
         }
     }, intervalo);
 }
-
-
-
